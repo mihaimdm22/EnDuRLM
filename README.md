@@ -7,7 +7,7 @@ Models used:
 
 Datasets used:
 - [**MIMIC**](https://mimic.physionet.org/)
-- [**ZGT Radiology Reports **](https://www.zgt.nl/)
+- [**ZGT Radiology Reports**](https://www.zgt.nl/)
 
 Datasets were used under confidentiality agreements and therefore code doesn't contain any data.
 
