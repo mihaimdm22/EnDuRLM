@@ -5,7 +5,7 @@
 ### Real world applications
 - Next word generator for radiology language.
 - Solve data leaks, bad quality or incoherence by replacing the missing word/sequence.
-- Quality check to increase the accuracy of the reports.
+- Quality check to increase the accuracy of radiology reports.
 - At the educational level, residents and students could benefit from a system that suggests specific terms and highlights wrong expression.
 
 ### Example of generated text using the most accurate model for each language
@@ -14,7 +14,6 @@
 - Screening analog mammography with icad computer aided detection the breasts are predominantly fatty.
 - There is a N cm opacity seen in the upper outer quadrant.
 - There are vascular calcifications however a single bb likely represents a small lymph node in the right retroareolar region.
-- There is a N cm opacity seen in the upper outer quadrant.
 - No evidence of malignancy. Birads N benign findings.
 
 #### ZGT:
@@ -30,6 +29,13 @@ Code is organized in subfolders for data preprocessing, model training and model
 - Python 3
 - PyTorch 0.4
 - Juptyer Notebook
+
+### Code execution steps
+1. Run Juptyer Notebook data/data_preparation.ipynb and save output data.
+2. Then with that data, run data/data_preprocess.ipynb.
+3. (optional) In order to count data size, you can run data/data_countwords.ipynb.
+4. To train the model and get generated text, run run.py. (This will call main.py and randomize parameters, in order to find best configuration)
+5. Run get_log_data.py to generate a csv with the results.
 
 ## Models
 Models used:
