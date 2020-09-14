@@ -47,7 +47,6 @@ Datasets used:
 - [**ZGT Radiology Reports**](https://www.zgt.nl/) - language: Dutch, data can not be mae public for privacy reasons.
 
 ## Paper
-This repo contains code used for paper [**'Effectiveness of neural language models for word prediction of textual mammography reports'**](https://essay.utwente.nl/78779/) from *University of Twente*, which will be presented at [SMC2020](http://smc2020.org/).
 
 ### Abstract:
 Radiologists are required to write free paper text reports for breast screenings in order to assign cancer diagnoses in a later step. The current procedure requires considerable time and needs efficiency. In this paper, to streamline the writing process and keep up with the specific vocabulary, a word prediction tool using neural language models was developed. Consequently, challenges as different languages (English, Dutch), small data sizes and low computational power have been overcome by introducing a novel English-Dutch Radiology Language Modelling process. After defining model architectures, the process involves data preparation, bilevel hyperparameters optimization, configuration transfer and evaluation. The model is able to improve the current workflow and successfully meet the computational constraints, based on both an intrinsic and extrinsic evaluation. Given its flexibility, the model opens the door for future research involving other languages and also an extensive set of real-world applications.
